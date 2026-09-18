@@ -1,0 +1,7 @@
+# Excel files (generated/output)
+*.xlsx
+*.xls
+*.csv
+
+# tapi kalau ada file spesifik yang tetap mau di-track meski masuk pattern di atas:
+!important_reference_data.xlsx
