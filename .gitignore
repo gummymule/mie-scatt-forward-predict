@@ -1,7 +1,25 @@
-# Excel files (generated/output)
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment (kalau ada venv lokal ikut kebuat di folder project)
+venv/
+env/
+.venv/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Dataset hasil generate (bisa di-generate ulang dari kode)
+mie_dataset.csv
 *.xlsx
 *.xls
-*.csv
 
-# tapi kalau ada file spesifik yang tetap mau di-track meski masuk pattern di atas:
-!important_reference_data.xlsx
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VS Code (opsional, biar setting lokal gak ikut ke-push)
+.vscode/
